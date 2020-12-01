@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Flex</title>
+    <style type="text/css">
+		* {
+			box-sizing: border-box;
+		}
+		body{
+			background: #cfe4cf;
+		}
+		.wraper{
+			width: 800px;
+			display: block;
+			margin: 100px auto;
+		}
+		.edit-field-wrap{
+			display: flex;
+			flex-direction: row;
+		}
+		.item{
+			padding: 15px;
+			position: relative;
+			background: #9c9c9c;
+			margin: 15px;
+		}
+		.img-block img{
+			width: 100%;
+		}
+		.text-block{
+			color: #FFF;
+			text-align: center;
+			text-shadow: 2px 2px black;
+		}
+    </style>
+</head>
+<body>
+	<div class="wraper">
+		<h1>Flex</h1>
+		<div class="edit-field-wrap">
+			<div class="item">
+				<div class="img-block">
+					<img src="img/dwoilp3BVjlE.jpg" alt="">
+				</div>
+				<div class="text-block text-absolute">
+					<h3>Котики</h3>
+					<p>это не только ценный мех</p>
+				</div>
+			</div>
+			<div class="item">
+				<div class="img-block">
+					<img src="img/dwoilp3BVjlE.jpg" alt="">
+				</div>
+				<div class="text-block text-absolute">
+					<h3>Котики</h3>
+					<p>это не только ценный мех</p>
+				</div>
+			</div>
+			<div class="item">
+				<div class="img-block">
+					<img src="img/dwoilp3BVjlE.jpg" alt="">
+				</div>
+				<div class="text-block text-absolute">
+					<h3>Котики</h3>
+					<p>это не только ценный мех</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
